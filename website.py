@@ -10,5 +10,9 @@ def home():
 def about():
     return render_template("about.html")
 
+@app.route('/map/')
+def map():
+    return render_template("map.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
