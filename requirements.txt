@@ -5,3 +5,5 @@ itsdangerous==0.24
 Jinja2==2.9.6
 MarkupSafe==1.0
 Werkzeug==0.12.2
+Bokeh==0.12.5
+pandas_datareader==0.4.0
