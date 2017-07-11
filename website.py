@@ -38,7 +38,7 @@ def plot():
 
     p = figure(x_axis_type = 'datetime', width=1000, height = 300, responsive = True)
 
-    p.title.text = "Financial Candlestick Chart"
+    p.title.text = "Google: %s - %s" %(str(start), str(end))
     #p.grid.grid_line_alpha = 0.3
 
     df["Status"] = [inc_dec(Close, Open) for Close, Open in zip(df.Close, df.Open)]
