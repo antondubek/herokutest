@@ -56,6 +56,14 @@ div.about {
           border-radius: 6px;
 }
 
+div.plot {
+  padding: 15px 0 30px 0;
+  background-color: #dde8ff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
 h2 {
   font-size: 3em;
   margin-top: 40px;
